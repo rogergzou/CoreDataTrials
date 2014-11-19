@@ -16,6 +16,22 @@
 
 @implementation TestTableViewController
 
+- (IBAction)addGroup:(UIBarButtonItem *)sender {
+    //eventCount, name, pausedSeconds, seconds, events[array];
+    Group *newGroup = [NSEntityDescription insertNewObjectForEntityForName:@"Group" inManagedObjectContext:self.managedObjectContext];
+    newGroup.name = [NSString stringWithFormat:@"Tester %d", rand()];
+    newGroup.eventCount = @(rand());
+    newGroup.pausedSeconds = @(rand());
+    newGroup.seconds = @(rand());
+    newGroup.events = nil;
+    
+    NSError *error;
+    if (![self.managedObjectContext save:&error])
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    //[self.tableView reloadData];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -216,7 +232,8 @@
         
         case NSFetchedResultsChangeMove:
         case NSFetchedResultsChangeUpdate:
-            //idk what to do
+            [self.tableView reloadSections:[[NSIndexSet alloc]initWithIndex:sectionIndex]  withRowAnimation:UITableViewRowAnimationAutomatic];
+            //yay
             break;
     }
 }
