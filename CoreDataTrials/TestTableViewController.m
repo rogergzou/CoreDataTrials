@@ -48,6 +48,9 @@
 
 }
 
+- (IBAction)addGroupCallBack:(UIStoryboardSegue *)segue {
+    //do nothing
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

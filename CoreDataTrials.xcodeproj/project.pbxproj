@@ -11,6 +11,7 @@
 		DB28D4881A1C2B07002C92F8 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D4871A1C2B07002C92F8 /* Event.m */; };
 		DB28D48B1A1C2C22002C92F8 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D48A1A1C2C22002C92F8 /* TestTableViewController.m */; };
 		DB28D48D1A1C2E41002C92F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D48C1A1C2E41002C92F8 /* CoreData.framework */; };
+		DB28D4901A1C6789002C92F8 /* AddGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D48F1A1C6789002C92F8 /* AddGroupViewController.m */; };
 		DBFD50961A185929006D7A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFD50951A185929006D7A7C /* main.m */; };
 		DBFD50991A185929006D7A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFD50981A185929006D7A7C /* AppDelegate.m */; };
 		DBFD509C1A185929006D7A7C /* CoreDataTrials.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBFD509A1A185929006D7A7C /* CoreDataTrials.xcdatamodeld */; };
@@ -39,6 +40,8 @@
 		DB28D4891A1C2C22002C92F8 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		DB28D48A1A1C2C22002C92F8 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 		DB28D48C1A1C2E41002C92F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DB28D48E1A1C6789002C92F8 /* AddGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGroupViewController.h; sourceTree = "<group>"; };
+		DB28D48F1A1C6789002C92F8 /* AddGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGroupViewController.m; sourceTree = "<group>"; };
 		DBFD50901A185929006D7A7C /* CoreDataTrials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTrials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFD50941A185929006D7A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBFD50951A185929006D7A7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				DBFD50A01A185929006D7A7C /* Main.storyboard */,
 				DB28D4891A1C2C22002C92F8 /* TestTableViewController.h */,
 				DB28D48A1A1C2C22002C92F8 /* TestTableViewController.m */,
+				DB28D48E1A1C6789002C92F8 /* AddGroupViewController.h */,
+				DB28D48F1A1C6789002C92F8 /* AddGroupViewController.m */,
 				DBFD50A31A185929006D7A7C /* Images.xcassets */,
 				DBFD50A51A185929006D7A7C /* LaunchScreen.xib */,
 				DBFD509A1A185929006D7A7C /* CoreDataTrials.xcdatamodeld */,
@@ -241,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB28D4901A1C6789002C92F8 /* AddGroupViewController.m in Sources */,
 				DB28D4881A1C2B07002C92F8 /* Event.m in Sources */,
 				DBFD509C1A185929006D7A7C /* CoreDataTrials.xcdatamodeld in Sources */,
 				DBFD50991A185929006D7A7C /* AppDelegate.m in Sources */,
